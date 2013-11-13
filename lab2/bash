@@ -1,0 +1,4 @@
+g++ -Wall -I gtest-1.6.0/include gtest-1.6.0/make/gtest-all.o Vector3F.cc test_Vector3F.cc -o test_Vector3F -lpthread
+
+g++ -Wall -I gtest-1.6.0/include gtest-1.6.0/make/gtest-all.o Color.cc test_Color.cc -o test_Color -lpthread
+

@@ -1,0 +1,4 @@
+
+./rt | pnmtopng > balls.png
+
+./rt < desc.txt | pnmtopng > balls.png

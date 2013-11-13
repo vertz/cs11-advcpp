@@ -1,0 +1,3 @@
+g++ -std=c++0x -Wall *.hh *.cc -o rt
+
+./rt | pnmtopng > balls.png

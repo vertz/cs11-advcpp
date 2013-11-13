@@ -1,0 +1,9 @@
+g++ -Wall -I gtest-1.6.0/include gtest-1.6.0/make/gtest-all.o Vector3F.cc test_Vector3F.cc -o test_Vector3F -lpthread
+
+g++ -Wall -I gtest-1.6.0/include gtest-1.6.0/make/gtest-all.o Color.cc test_Color.cc -o test_Color -lpthread
+
+g++ -Wall -I gtest-1.6.0/include gtest-1.6.0/make/gtest-all.o Vector3F.cc Ray.cc test_Ray.cc -o test_Ray -lpthread
+
+g++ -std=c++0x -Wall -I gtest-1.6.0/include gtest-1.6.0/make/gtest-all.o *.hh Vector3F.cc Ray.cc SphereObject.cc test_SphereObject.cc -o test_SphereObject -lpthread
+
+
